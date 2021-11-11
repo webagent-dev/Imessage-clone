@@ -1,0 +1,49 @@
+.message__container{
+        max-width: max-content;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 1rem;
+       position: relative;
+        cursor: pointer;
+}
+.chat{
+    background: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+      
+}
+.chat > p{
+    font-size: 15px;
+    font-weight: 700;
+    word-wrap: break-word;
+        word-break: break-word;
+}
+.chat > small{
+    font-family: monospace;
+    position: absolute;
+    right: 0;
+    padding: 3px 10px;
+    font-size: 8px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.message__sender {
+    margin-left: auto !important;
+
+}
+.message__sender > .photo{
+    order: 1;
+    margin: 10px;
+}
+.photo{
+    order: 0;
+}
+.message__sender > .chat >  .text {
+    background: skyblue;
+    display: none;
+}
+.message__sender > chat  > small {
+    margin-right: auto;
+}

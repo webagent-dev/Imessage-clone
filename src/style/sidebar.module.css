@@ -1,0 +1,43 @@
+.sidebar__container{
+    flex: 0.35;
+    max-width: 100%;
+    border-right: 1px solid gray;
+    overflow: scroll;
+    background: whitesmoke;
+}
+.sidebar__container::-webkit-scrollbar{
+        display: none;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: .5rem;
+}
+.input__wrapper{
+    background: lightgray;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    border-radius: 5px;
+}
+.input__wrapper > input {
+    flex: 1;
+    border: none;
+    padding: 4px ;
+    background: transparent;
+    outline-width: 0;
+    
+}
+::placeholder{
+    font-size: 12px;
+    font-weight: 700;
+}
+.icon{
+    font-size: 18px!important;
+    margin-left: 40px!important;
+}
+.channel{
+}

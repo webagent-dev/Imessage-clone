@@ -22,3 +22,4 @@
 [0815/125724.792:ERROR:exception_snapshot_win.cc(99)] thread ID 2804 not found in process
 [0816/155517.498:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0818/191445.059:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0901/034200.361:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

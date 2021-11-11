@@ -1,0 +1,61 @@
+.main__container{
+    width: 100%;
+    flex:  1;
+    display: flex;
+    flex-direction: column;
+}
+.main__header{
+    display: flex;
+    background: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.main__header > h3{
+      font-family: 'Gill Sans',
+      'Gill Sans MT',
+      Calibri,
+      'Trebuchet MS',
+      sans-serif;
+      color: gray;
+}
+.main__header > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding: 0px 10px;
+    color: skyblue;
+}
+.color{
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
+}
+.message__container{
+    flex: 1;
+}
+.message__input {
+    display: flex;
+    padding: 10px;
+    background: whitesmoke;
+    border-top: 1pz solid gray;
+    align-items: center;
+}
+.message__input > form{
+  flex: 1;
+  border-radius: 20px;
+  /* padding: 0px 15px; */
+  
+  border: 1px solid gray;
+  font-size: 20px;
+}
+form > input {
+    width: 100%;
+border: none;
+outline-width: 0;
+background: transparent;
+}
+::placeholder{
+    font-weight: 700;
+    margin-left: 10px;
+}
